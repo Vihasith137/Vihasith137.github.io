@@ -1,0 +1,1244 @@
+<!DOCTYPE html>
+<html lang="zxx">
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+      <link rel="stylesheet" href="assets/css/animate.css">
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+      <link rel="stylesheet" href="assets/bootstarp/bootstrap.min.css">
+      <link rel="stylesheet" href="assets/css/super-classes.css">
+      <link rel="stylesheet" href="assets/css/style.css">
+      <link rel="stylesheet" href="assets/css/mobile.css">
+      <title>Rasala_Vihasith | Home</title>
+   </head>
+   <body>
+      <!---header-and-banner-section-->
+      <div class="header-and-banner-con w-100 float-left position-relative">
+         <div class="header-and-banner-inner-con">
+            <header class="main-header">
+               <!--navbar-start-->
+               <div class="container pl-0 pr-0">
+                  <div class="header-con">
+                     <nav class="navbar navbar-expand-lg navbar-light p-0">
+                        <button class="navbar-toggler p-0 collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                           <ul class="navbar-nav ml-auto">
+                              <li class="nav-item active pl-0">
+                                 <a class="nav-link p-0 is-active" href="index.html">Home<span class="sr-only">(current)</span></a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link p-0" href="#service-con">Services</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link p-0" href="#about-con">About</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link p-0" href="#Portfolio">Portfolio</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link p-0" href="#testimonials">Feedback</a>
+                              </li>
+                           </ul>
+                           <div class="d-inline-block contact">
+                              <a href="#Contact">Contact</a>
+                           </div>
+                        </div>
+                     </nav>
+                  </div>
+               </div>
+               <!--navbar-end-->
+            </header>
+            <section class="banner-main-con" id="home">
+               <div class="container pl-0 pr-0">
+                  <!--banner-start-->
+                  <div class="footer-social-icon banner-social-icon mb-0">
+                     <ul class="mb-0 list-unstyled">
+                        <li class="mt-3 mb-3">
+                           <a href="https://github.com/Vihasith137"><i class="fab fa-dribbble d-flex align-items-center justify-content-center ml-0 mr-0 "></i></a>
+                        </li>
+                        <li class="">
+                           <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"><i class="fab fa-linkedin-in d-flex align-items-center justify-content-center"></i></a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="banner-con text-lg-left text-center">
+                     <div class="row">
+                        <div class="col-lg-7 col-sm-12 d-flex justify-content-center flex-column">
+                           <div class="banner-left-con wow slideInLeft">
+                              <div class="banner-heading">
+                                 <h2>Hello, I Am</h2>                                 
+                                 <ul class="dynamic-txts">
+                                    <li><h1>Vihasith Rasala</h1></li>
+                                    <li><h1>Vihasith Rasala</h1></li>
+                                    <li><h1>Vihasith Rasala</h1></li>
+                                    <li><h1>Vihasith Rasala</h1></li>
+                                  </ul>
+                                 <p>Dedicated Data Analyst and Full Stack Developer with<br>
+                                    innovative problem-solving, and technical excellence.
+                                 </p>
+                              </div>
+                              <a href="#Portfolio" class="See-btn">See My Work</a>
+                           </div>
+                        </div>
+                        <div class="col-lg-5 col-sm-12">
+                           <div class="banner-right-con position-relative wow slideInRight" id="banner-right-con">
+                              <figure class="mb-0">
+                                 <img src="assets/image/banner-right-img.png" width = 600px height = 600px alt="banner-right-img" id="banner-right-img">
+                              </figure>
+                              <div class="cursor"></div>
+                              <div class="cursor2"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!--banner-end-->
+               </div>
+            </section>
+         </div>
+      </div>
+      <!---header-and-banner-section-->
+	  <!--analogue clock section-->
+	  <div id="digital-clock"></div>
+			<canvas id="analog-clock" width="150" height="150" style="background-color:#999" alt="Centred Image"></canvas>
+			<script src="https://waph-uc.github.io/clock.js"></script>
+			<script> var canvas = document.getElementById("analog-clock");
+      var ctx = canvas.getContext("2d");
+      var radius = canvas.height / 2;
+      ctx.translate(radius,radius);
+      radius = radius * 0.90
+      setInterval(drawClock, 10);
+
+      function drawClock(){
+          drawFace(ctx, radius);
+          drawNumbers(ctx, radius);
+          drawTime(ctx,radius);
+      }
+      </script>
+	  <!--weather info-->
+	  <section class="resume-section" id="waph">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Web Application Programming and Hacking</h2>
+	  <div class="weather-widget">
+		<a class="weatherwidget-io" href="https://forecast7.com/en/39d10n84d51/cincinnati/" data-label_1="CINCINNATI" data-label_2="WEATHER" data-theme="original" >Weather Forecast</a>
+		<script>
+		!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];
+		if(!d.getElementById(id)){js=d.createElement(s);js.id=id;
+		js.src='https://weatherwidget.io/js/widget.min.js';
+		fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+		</script>
+		<a href="waph.html" >Path to WAPH Coursework</a>
+		</div>
+		<script>
+		function displayJoke(){
+		$.get("https://v2.jokeapi.dev/joke/Programming?type=single",function(result){
+				console.log("from joke API: "+ JSON.stringify(result));
+				if (result && result.joke) {
+				$("#response").text("Programming joke of the day: " +result.joke);
+				}
+				else{
+				 $("#response").text("Could not retrieve a joke at this time.");	
+				}
+			});
+		}
+		displayJoke();
+		setInterval(displayJoke,60*1000);
+ 
+		</script>
+      <!-- service section -->
+      <section class="w-100 float-left service-con padding-top padding-bottom position-relative" id="service-con" >
+         <div class="container">
+            <div class="service-inner-con position-relative">
+               <div class="generic-title text-center">
+                  <h6>My Expertise</h6>
+                  <h2 class="mb-0">
+                     Professional Services
+                  </h2>
+               </div>
+               <div class="service-box wow fadeInUp">
+                  <div class="row">
+                     <div class="col-lg-6 col-md-6">
+                        <div class="service-box-item">
+                           <figure class="mb-0">
+                              <img src="assets/image/service-icon1.png" alt="service-icon" class="img-fluid">
+                           </figure>
+                           <div class="service-box-item-content">
+                              <h4>Ui-Design</h4>
+                              <p>Expertise in Web Interface design
+                                 Design tools:
+								 Figma and Adobe XD</br>
+								 Sketch, Invision, Bootstrap
+								 
+                              </p>
+                              <a href="#" data-toggle="modal" data-target="#Ui-Design"></a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-6 col-md-6">
+                        <div class="service-box-item">
+                           <figure class="mb-0">
+                              <img src="assets/image/service-icon2.png" alt="service-icon" class="img-fluid">
+                           </figure>
+                           <div class="service-box-item-content">
+                              <h4>Data Analysis</h4>
+                              <p>Skilled in statistical analysis and data visualization</br>
+                                 Tools used: Python, R, ODI, OBI, SQL
+                              </p>
+                              <a href="#" data-toggle="modal" data-target="#web-design"></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row mb-0">
+                     <div class="col-lg-6 col-md-6">
+                        <div class="service-box-item">
+                           <figure class="mb-0">
+                              <img src="assets/image/service-icon3.png" alt="service-icon" class="img-fluid">
+                           </figure>
+                           <div class="service-box-item-content">
+                              <h4>Web Development</h4>
+                              <p>Expertise in web development</br>
+                                 front-end: HTML, CSS, and JavaScript
+                                 Back-end:  Node.js and Python
+                              </p>
+                              <a href="#" data-toggle="modal" data-target="#web-development"></a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-6 col-md-6">
+                        <div class="service-box-item mb-0">
+                           <figure class="mb-0">
+                              <img src="assets/image/adobe.png" alt="service-icon" class="img-fluid">
+                           </figure>
+                           <div class="service-box-item-content">
+                              <h4>Graphic Design<h4>
+                              <p>Professional in illustartions,</br> 
+                                 animations and creating templates </br>
+								 Tools used: Adobe, DaVinci, Blender
+                              </p>
+                              <a href="#" data-toggle="modal" data-target="#app-development"></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- service section -->
+      <!-- skill section -->
+      <section class="w-100 float-left skill-con padding-top padding-bottom position-relative" id="about-con">
+         <figure class="mb-0 myskils">
+            <img src="./assets/image/myskills-left-img.png" alt="">
+         </figure>
+         <div class="container">
+            <div class="skill-inner-con position-relative">
+               <div class="row">
+                  <div class="col-lg-6 order-lg-0 order-2">
+                     <div class="skill-left-con text-center wow slideInLeft" >
+                        <div class="row service-skill-sttaf-con">
+                           <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                              <div class="skill-left-item-con">
+                                 <div class="circle-wrap firstPercentage">
+                                    <div class="circle">
+                                       <div class="mask full">
+                                          <div class="fill"></div>
+                                       </div>
+                                       <div class="mask half">
+                                          <div class="fill"></div>
+                                       </div>
+                                       <div class="inside-circle">
+                                          <div class="service-skill-sttaf-item-con">
+                                             <div class="service-skill-sttaf-item-title service-skill-sttaf-item1-con d-flex align-items-center justify-content-center">
+                                                <h4 class="d-table-cell align-middle mb-0 text-center count">75</h4>
+                                                <span class="static-txt2">%</span>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="service-skill-sttaf-item-heading">
+                                    <p class="mb-0">Graphic Design</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                              <div class="skill-left-item-con">
+                                 <div class="circle-wrap secondPercentage">
+                                    <div class="circle">
+                                       <div class="mask full">
+                                          <div class="fill"></div>
+                                       </div>
+                                       <div class="mask half">
+                                          <div class="fill"></div>
+                                       </div>
+                                       <div class="inside-circle">
+                                          <div class="service-skill-sttaf-item-con">
+                                             <div class="service-skill-sttaf-item-title service-skill-sttaf-item2-con text-center d-flex align-items-center justify-content-center">
+                                                <h4 class=" mb-0 text-center count">95</h4>
+                                                <span class=" static-txt2">%</span>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="service-skill-sttaf-item-heading">
+                                    <p class="mb-0">Web Designing</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row service-skill-sttaf-con">
+                           <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                              <div class="skill-left-item-con">
+                                 <div class="circle-wrap thirdPercentage">
+                                    <div class="circle">
+                                       <div class="mask full">
+                                          <div class="fill"></div>
+                                       </div>
+                                       <div class="mask half">
+                                          <div class="fill"></div>
+                                       </div>
+                                       <div class="inside-circle">
+                                          <div class="service-skill-sttaf-item-con">
+                                             <div class="service-skill-sttaf-item-title service-skill-sttaf-item1-con d-flex align-items-center justify-content-center">
+                                                <h4 class="d-table-cell align-middle mb-0 text-center count">85</h4>
+                                                <span class="static-txt2">%</span>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="service-skill-sttaf-item-heading">
+                                    <p class="mb-0">Branding Design</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-6 col-md-6 col-sm-6 col-12 ">
+                              <div class="skill-left-item-con">
+                                 <div class="circle-wrap fourPercentage">
+                                    <div class="circle">
+                                       <div class="mask full">
+                                          <div class="fill"></div>
+                                       </div>
+                                       <div class="mask half">
+                                          <div class="fill"></div>
+                                       </div>
+                                       <div class="inside-circle">
+                                          <div class="service-skill-sttaf-item-con">
+                                             <div class="service-skill-sttaf-item-title service-skill-sttaf-item2-con text-center d-flex align-items-center justify-content-center">
+                                                <h4 class=" mb-0 text-center count">80</h4>
+                                                <span class=" static-txt2">%</span>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="service-skill-sttaf-item-heading">
+                                    <p class="mb-0">Web Development</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-6 d-flex align-items-center">
+                     <div class="skill-right-con wow slideInRight" >
+                        <h6>My Skills</h6>
+                        <h2>Beautiful & Unique
+                           Digital Experiences
+                        </h2>
+                        <p>Experienced in excellency in the field of 
+							Graphic design and Web Development
+                        </p>
+                        <p>Professional experience in Data Analysis
+							Free lancer in Web development and Graphic Designing
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- skill section -->
+      <!-- portfolio section -->
+      <section class="w-100 float-left portfolio-con padding-top" id="Portfolio">
+         <div class="container">
+            <div class="generic-title text-center">
+               <h6 class="text-white">Creative Works</h6>
+               <h2 class="mb-0 text-white">Check My Portfolio</h2>
+            </div>
+            <div id="myBtnContainer" class="text-center">
+               <button class=" active active_button" onclick="filterSelection('all')"> All </button>
+               <button class="" onclick="filterSelection('cars')">Education </button>
+               <button class="" onclick="filterSelection('animals')">Projects</button>
+               <button class="" onclick="filterSelection('fruits')"> Internship </button>
+               <button class="" onclick="filterSelection('colors')">Certifications</button>
+            </div>
+         </div>
+      </section>
+      <!-- portfolio section -->
+      <!-- portfolio section -->
+      <section class="w-100 float-left portfolio-body-con position-relative">
+         <div class="container">
+            <div class="portfolio-img-con position-relative w-100 float-left wow fadeInUp" >
+               <div class="filterDiv cars position-relative">
+                  <a href="#" data-toggle="modal" data-target="#modalWPWAF">
+                     <div class="portfolio-img position-relative">
+                        <figure>
+                           <img src="assets/image/blog-img-1.png" alt="portfolio-img1" class="img-fluid"> 
+                        </figure>
+                     </div>
+                  </a>
+                     <div class="portfolio-img-content text-left">
+                        <div class="portfolio-img-title d-inline-block">
+                           <h4>Application UI Design</h4>
+                           <p>I have created a comprehensive website for Kaizen....</p>
+                        </div>
+                     <a href="#" class="float-lg-right" data-toggle="modal" data-target="#modalWPWAF-icon">
+                      <i class="fas fa-arrow-right d-flex align-items-center justify-content-center"></i>
+                  </a> 
+                  </div>
+                  
+               </div>
+               <div class="filterDiv colors fruits position-relative">
+                  <a href="#" data-toggle="modal" data-target="#modalporfolio2">
+                     <div class="portfolio-img position-relative">
+                        <figure>
+                           <img src="assets/image/blog-img-2.png" alt="portfolio-img1" class="img-fluid"> 
+                        </figure>
+                     </div>
+                  </a>
+                     <div class="portfolio-img-content text-left">
+                        <div class="portfolio-img-title d-inline-block">
+                           <h4 >Meme Generator</h4>
+                           <p >MemeGen is a web application which generates....</p>
+                        </div>
+                     <a href="#" class="float-lg-right" data-toggle="modal" data-target="#modalporfolio2-icon">
+                     <i class="fas fa-arrow-right d-flex align-items-center justify-content-center"></i>
+                     </a>
+                  </div>
+                  
+               </div>
+               <div class="filterDiv cars position-relative">
+                  <a href="#" data-toggle="modal" data-target="#modalporfolio3">
+                     <div class="portfolio-img position-relative">
+                        <figure>
+                           <img src="assets/image/blog-img-3.png" alt="portfolio-img1" class="img-fluid"> 
+                        </figure>
+                     </div>
+                  </a>
+                     <div class="portfolio-img-content text-left">
+                        <div class="portfolio-img-title d-inline-block">
+                           <h4 >EAS Oracle Analyst</h4>
+                           <p >D Customer Revenue Critical Reporting – Pacific Gas....</p>
+                        </div>
+                  <a href="#" class="float-lg-right" data-toggle="modal" data-target="#modalporfolio3-icon"><i class="fas fa-arrow-right d-flex align-items-center justify-content-center"></i></a>
+                  </div>
+            </div>
+         </div>
+      </section>
+      <!-- portfolio section -->
+      <!-- tastimonials section -->
+      <section class="w-100 float-left padding-top padding-bottom tastimonials-con position-relative text-lg-left text-center" id="testimonials">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-5">
+                  <div class="tastimonials-left-con wow slideInLeft" >
+                     <figure class="mb-0">
+                        <img src="assets/image/tastimonials-img.png" alt="tastimonials-img" class="img-fluid">
+                     </figure>
+                  </div>
+               </div>
+               <div class="col-lg-7">
+                  <div id="carouselExampleControls" class="carousel slide wow slideInRight" data-ride="carousel" >
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <div class="testimonials-content">
+                              <h6>Feedback</h6>
+                              <h2>Happy Clients Feedback</h2>
+                              <figure class="mb-0">
+                                 <img src="assets/image/comma-icon.png" alt="comma-icon" class="img-fluid">
+                              </figure>
+                              <div class="testimonials-inner-content">
+                                 <p>It's so pleasing to work with Mr. Vihasith. He gave me 
+								 a quick and coherent graphic Design services for my Dental clinic
+								 and the cricket tournament
+                                 </p>
+                                 <span class="d-block auther-name">Dr. Rahim Abdul</span>
+                                 <span class="d-block">Founder Kaizen Family Dental</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="testimonials-content">
+                              <h6>Testimonials</h6>
+                              <h2>Happy Clients Feedback</h2>
+                              <figure class="mb-0">
+                                 <img src="assets/image/comma-icon.png" alt="comma-icon" class="img-fluid">
+                              </figure>
+                              <div class="testimonials-inner-content">
+                                 <p>I met him during the shoot and he approached me with a graphic Design 
+								 Visiting card. I have asked a logo opener for my production
+								 "NatWoods" where he gave a stunning output very quickly.
+                                 </p>
+                                 <span class="d-block auther-name">Mikey</span>
+                                 <span class="d-block">Film Director</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="testimonials-content">
+                              <h6>Testimonials</h6>
+                              <h2>Happy Clients Feedback</h2>
+                              <figure class="mb-0">
+                                 <img src="assets/image/comma-icon.png" alt="comma-icon" class="img-fluid">
+                              </figure>
+                              <div class="testimonials-inner-content">
+                                 <p>Mr Vihasith is multiply talented as he also a web developer.
+								 He developed a fully functional websited for my detal clinic and 
+								 a new clinic called "Dental First".
+                                 </p>
+                                 <span class="d-block auther-name">Dr Rahim Abdul</span>
+                                 <span class="d-block">Founder Kaizen Family Dental</span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                     <i class="fas fa-arrow-left d-flex align-items-center justify-content-center"></i>
+                     <span class="sr-only">Previous</span>
+                     </a>
+                     <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                     <i class="fas fa-arrow-right d-flex align-items-center justify-content-center"></i>
+                     <span class="sr-only">Next</span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- tastimonials section -->
+      <!-- blog section -->
+      <!-- form section -->
+      <section class="w-100 float-left form-main-con padding-top padding-bottom" id="Contact">
+         <div class="container">
+            <div class="form-main-inner-con position-relative">
+               <div class="generic-title text-center">
+                  <h6>Get in Touch</h6>
+                  <h2 class="mb-0">Any Questions? Feel Free<br>
+                     to Contact
+                  </h2>
+               </div>
+               <div class="row">
+                  <div class="col-lg-4 order-lg-0 order-2">
+                     <div class="contact-information position-relative wow slideInLeft" >
+                        <ul class="list-unstyled">
+                           <li>
+                              <figure class="mb-0 d-flex align-items-center justify-content-center">
+                                 <img src="assets/image/location-icon.png" alt="location-icon" class="img-fluid">
+                              </figure>
+                              <div class="contact-information-content">
+                                 <h5>Address:</h5>
+                                 <p class="mb-0">727 MLK Drive Cincinnati, OH
+                                    45220, USA
+                                 </p>
+                              </div>
+                           </li>
+                           <li>
+                              <figure class="mb-0 d-flex align-items-center justify-content-center">
+                                 <img src="assets/image/message-icon.png" alt="message-icon" class="img-fluid">
+                              </figure>
+                              <div class="contact-information-content">
+                                 <h5>Email:</h5>
+                                 <p class="mb-0">vihasith1234@gmail.com</p>
+                              </div>
+                           </li>
+                           <li class="mb-0">
+                              <figure class="mb-0 d-flex align-items-center justify-content-center">
+                                 <img src="assets/image/phone-icon.png" alt="phone-icon" class="img-fluid">
+                              </figure>
+                              <div class="contact-information-content">
+                                 <h5>Phone:</h5>
+                                 <p class="mb-0">+1 513 410 9021</p>
+                                 <p class="mb-0">+91 89192 44360</p>
+                              </div>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-lg-8">
+                      <div id="form_result">
+                
+                      </div>
+
+                     <form id= "contactpage" method="POST" class="contact-form wow slideInRight text-lg-left text-center" >
+                        <div class="row">
+                           <div class="col-lg-6 col-md-6">
+                              <div class="form-group mb-0">    
+                                 <input type="text"  placeholder="Name"      name="name" id="name" autocomplete="off" required> 
+                              </div>
+                           </div>
+                           <div class="col-lg-6 col-md-6">
+                              <div class="form-group mb-0">
+                                 <input type="email" id="emailHelp" name="emailHelp" placeholder="Email" autocomplete="off" required>
+                                 <small class="form-text text-muted"></small>
+                              </div>
+                           </div>
+                           <div class="col-lg-6 col-md-6">
+                              <div class="form-group mb-0">    
+                                 <input type="tel"  placeholder="Phone" name="phone" id="phone" required> 
+                              </div>
+                           </div>
+                           <div class="col-lg-6 col-md-6">
+                              <div class="form-group mb-0">    
+                                 <input type="text" name="subject"  placeholder="Subject" id="subject"> 
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="col-lg-12">
+                              <div class=" form-group mb-0">    
+                                 <textarea  placeholder="Message" rows="3" name="comments" id="comments"></textarea>
+                              </div>
+                           </div>
+                        </div>
+                        <button type="submit" id="submit" class="appointment-btn">Submit</button>
+                     </form>
+                      
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- form section -->
+      <!-- weight footer section -->
+      <div class="w-100 float-left weight-footer-con position-relative">
+         <div class="container">
+            <div class="weight-footer-content text-center wow fadeInUp" >
+               <div class="footer-navbar">
+                  <ul class="list-unstyled">
+                     <li class="d-inline-block border-left-0 pl-0"><a href="#home">Home</a></li>
+                     <li class="d-inline-block"><a href="#about-con">About</a></li>
+                     <li class="d-inline-block"><a href="#service-con">Services</a></li>
+                     <li class="d-inline-block"><a href="#Portfolio">Portfolio</a></li>
+                     <li class="d-inline-block pr-0"><a href="#Contact">Contact</a></li>
+                  </ul>
+               </div>
+               <div class="footer-social-icon">
+                  <ul class="mb-0">
+                     <li class="d-inline-block">
+                        <a href="https://github.com/Vihasith137"><i class="fab fa-dribbble d-flex align-items-center justify-content-center"></i></a>
+                     </li>
+                     <li class="d-inline-block">
+                        <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"><i class="fab fa-linkedin-in d-flex align-items-center justify-content-center"></i></a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="copy-right-content text-center">
+            </div>
+         </div>
+      </div>
+      <a id="button"></a>
+      <div id="modalWPWAF" class="modal fade" tabindex="-1" style="display: none;" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" ><i class="far fa-times"></i></span></button>
+               </div>
+               <div class="modal-body service-model-content">
+                  <figure class="mb-0">
+                     <img src="assets/image/blog-img-1.png" alt="portfolio-model-img1" class="img-fluid">
+                  </figure>
+                  <h4>Application UI Design</h4>
+                  <p class="mb-md-4 mb-2">I have created a comprehensive website for Kaizen Family Dental utilizing WordPress alongside HTML and JavaScript. This website is designed to be fully functional, offering visitors a seamless browsing experience while providing detailed information about the services and offerings of Kaizen Family Dental.</p>
+                  <ul class="list-unstyled model-list mb-md-3 mb-2">
+                     <li><i class="fas fa-check-circle"></i> JavaScript Enhancements: JavaScript is employed to enhance the user experience by adding interactive elements and functionalities</li>
+                     <li><i class="fas fa-check-circle"></i> Kaizen Family Dental Information: The website contains comprehensive information about Kaizen Family Dental, including details about their services</li>
+                     <li><i class="fas fa-check-circle"></i> User-Friendly Navigation: The website features intuitive navigation menus and user interface elements to help visitors easily find the information</li>
+                  </ul>
+                  <p class="mb-0">Overall, the Kaizen Family Dental website serves as an effective online platform for promoting the dental practice, attracting new patients, and providing valuable resources and information to existing patients.</p>  
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="modalWPWAF-icon" class="modal fade" tabindex="-1" style="display: none;" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" ><i class="far fa-times"></i></span></button>
+               </div>
+               <div class="modal-body service-model-content">
+                  <figure class="mb-0">
+                     <img src="assets/image/blog-img-1.png" alt="portfolio-model-img1" class="img-fluid">
+                  </figure>
+                  <h4>Application UI Design</h4>
+                  <p class="mb-md-4 mb-2">I have created a comprehensive website for Kaizen Family Dental utilizing WordPress alongside HTML and JavaScript. This website is designed to be fully functional, offering visitors a seamless browsing experience while providing detailed information about the services and offerings of Kaizen Family Dental.</p>
+                  <ul class="list-unstyled model-list mb-md-3 mb-2">
+                     <li><i class="fas fa-check-circle"></i> JavaScript Enhancements: JavaScript is employed to enhance the user experience by adding interactive elements and functionalities</li>
+                     <li><i class="fas fa-check-circle"></i> Kaizen Family Dental Information: The website contains comprehensive information about Kaizen Family Dental, including details about their services</li>
+                     <li><i class="fas fa-check-circle"></i> User-Friendly Navigation: The website features intuitive navigation menus and user interface elements to help visitors easily find the information</li>
+                  </ul>
+                  <p class="mb-0">Overall, the Kaizen Family Dental website serves as an effective online platform for promoting the dental practice, attracting new patients, and providing valuable resources and information to existing patients.</p>  
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="modalporfolio2" class="modal fade" tabindex="-1" style="display: none;" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" ><i class="far fa-times"></i></span></button>
+               </div>
+               <div class="modal-body service-model-content">
+                  <figure class="mb-0">
+                     <img src="assets/image/blog-img-2.png" alt="portfolio-model-img1" class="img-fluid">
+                  </figure>
+                  <h4>Meme Generator</h4>
+                  <p class="mb-md-4 mb-2">MemeGen is a web application which generates memes automatically according to the given image. All the user has to do is upload a clear picture,and our application analyses the expression of the person in the image producing amusing memes. The user also has an option of downloading the image from the webpage.</p>
+                  <ul class="list-unstyled model-list mb-md-3 mb-2">
+                     <li><i class="fas fa-check-circle"></i> Undersampling</li>
+                     <li><i class="fas fa-check-circle"></i> Oversampling</li>
+                     <li><i class="fas fa-check-circle"></i> Image Augmentation</li>
+					 <li><i class="fas fa-check-circle"></i> Convolutional Neural Networks</li>
+					 <li><i class="fas fa-check-circle"></i> Auto ML</li>
+                  </ul>
+                  <p class="mb-0">It is little wonder that there was a huge image dataset playing its part behind the scenes. Image datasets brings in the importance of CNN with it. </p>  
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="modalporfolio2-icon" class="modal fade" tabindex="-1" style="display: none;" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" ><i class="far fa-times"></i></span></button>
+               </div>
+               <div class="modal-body service-model-content">
+                  <figure class="mb-0">
+                     <img src="assets/image/blog-img-2.png" alt="portfolio-model-img1" class="img-fluid">
+                  </figure>
+                  <h4>Meme Generator</h4>
+                  <p class="mb-md-4 mb-2"> MemeGen is a web application which generates memes automatically according to the given image. All the user has to do is upload a clear picture,and our application analyses the expression of the person in the image producing amusing memes. The user also has an option of downloading the image from the webpage.</p>
+                  <ul class="list-unstyled model-list mb-md-3 mb-2">
+                     <li><i class="fas fa-check-circle"></i> Undersampling</li>
+                     <li><i class="fas fa-check-circle"></i> Oversampling</li>
+                     <li><i class="fas fa-check-circle"></i> Image Augmentation</li>
+					 <li><i class="fas fa-check-circle"></i> Convolutional Neural Networks</li>
+					 <li><i class="fas fa-check-circle"></i> Auto ML</li>
+                  </ul>
+                  <p class="mb-0">It is little wonder that there was a huge image dataset playing its part behind the scenes. Image datasets brings in the importance of CNN with it. </p>  
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="modalporfolio3" class="modal fade" tabindex="-1" style="display: none;" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" ><i class="far fa-times"></i></span></button>
+               </div>
+               <div class="modal-body service-model-content">
+                  <figure class="mb-0">
+                     <img src="assets/image/blog-img3.png" alt="portfolio-model-img1" class="img-fluid">
+                  </figure>
+                  <h4>EAS Oracle Analyst</h4>
+                  <p class="mb-md-4 mb-2"> Customer Revenue Critical Reporting – Pacific Gas & Electricity is an insurance company in Silicon Valley, CA</p>
+                  <ul class="list-unstyled model-list mb-md-3 mb-2">
+                     <li><i class="fas fa-check-circle"></i>Performed data monitoring which we received data volume post LCOB</li>
+                     <li><i class="fas fa-check-circle"></i>Developed a centralized code for Procedures and packages in ODI to automate daily tasks to generate reports. </li>
+                     <li><i class="fas fa-check-circle"></i>Led many client meetings regarding WSR and technology advancement proposals for quick tasking. </li>
+					 <li><i class="fas fa-check-circle"></i>Tools used: Oracle Business Intelligence, Oracle Analytics Cloud, Middleware, Oracle Dara Integrator, MySQL. </li>
+                  </ul>
+                  <p class="mb-0">Throughout these initiatives, I leveraged a range of tools, including Oracle Business Intelligence, Oracle Analytics Cloud, Middleware, Oracle Data Integrator, and MySQL. These tools were instrumental in enabling robust data management, analysis, and integration, facilitating informed decision-making and driving organizational growth.</p>  
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="modalporfolio3-icon" class="modal fade" tabindex="-1" style="display: none;" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" ><i class="far fa-times"></i></span></button>
+               </div>
+               <div class="modal-body service-model-content">
+                  <figure class="mb-0">
+                     <img src="assets/image/blog-img-3.png" alt="portfolio-model-img1" class="img-fluid">
+                  </figure>
+                  <h4>EAS Oracle Analyst</h4>
+                  <p class="mb-md-4 mb-2"> Customer Revenue Critical Reporting – Pacific Gas & Electricity is an insurance company in Silicon Valley, CA</p>
+                  <ul class="list-unstyled model-list mb-md-3 mb-2">
+                     <li><i class="fas fa-check-circle"></i>Performed data monitoring which we received data volume post LCOB</li>
+                     <li><i class="fas fa-check-circle"></i>Developed a centralized code for Procedures and packages in ODI to automate daily tasks to generate reports. </li>
+                     <li><i class="fas fa-check-circle"></i>Led many client meetings regarding WSR and technology advancement proposals for quick tasking. </li>
+					 <li><i class="fas fa-check-circle"></i>Tools used: Oracle Business Intelligence, Oracle Analytics Cloud, Middleware, Oracle Dara Integrator, MySQL. </li>
+                  </ul>
+                  <p class="mb-0">Throughout these initiatives, I leveraged a range of tools, including Oracle Business Intelligence, Oracle Analytics Cloud, Middleware, Oracle Data Integrator, and MySQL. These tools were instrumental in enabling robust data management, analysis, and integration, facilitating informed decision-making and driving organizational growth.</p>  
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="blog-model-1" class="modal fade blog-model-con" tabindex="-1" style="display: none;" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" ><i class="far fa-times"></i></span></button>
+               </div>
+               <div class="modal-body">
+                  <div class="blog-box-item mb-0">
+                     <div class="blog-img">
+                        <figure class="mb-0">
+                           <img src="assets/image/blog-model-img1.png" alt="blog-img" class="img-fluid">
+                        </figure>
+                     </div>
+                     <div class="blog-content pl-0 pr-0">
+                        <div class="blog-auteher-title">
+                           <span>By Elina Parker</span>
+                           <span class="float-lg-right">Mar 8, 2022</span>
+                        </div>
+                        <h4>Quis autem vea eum 
+                           iure reprehenderit
+                        </h4>
+                        <div class="footer-social-icon mb-0">
+                           <ul>
+                              <li class="d-inline-block">
+                                 <a href="https://www.behance.net/"><i class="fab fa-behance d-flex align-items-center justify-content-center"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                 <a href="https://dribbble.com/"><i class="fab fa-dribbble d-flex align-items-center justify-content-center"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                 <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"><i class="fab fa-linkedin-in d-flex align-items-center justify-content-center"></i></a>
+                              </li>
+                           </ul>
+                        </div>
+                        <p class="mb-md-4 mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tempor eros a tellus auctor, nec suscipit nunc dignissim. Ut suscipit gravida augue sed elementum. Sed sed luctus nisl. Donec scelerisque nisi in sodales mattis. Vestibulum suscipit odio ac enim blandit sollicitudin. Aliquam ultrices sem quis urna placerat interdum. Etiam rutrum, quam sagittis tristique mollis, libero arcu scelerisque erat, eget tincidunt eros diam quis nunc.</p>
+                        <h4 class="comment-title">LEAVE A COMMENT</h4>
+                        <form class="contact-form blog-model-form">
+                           <div class="row">
+                              <div class="col-lg-6 col-md-6">
+                                 <div class="form-group mb-0">    
+                                    <input type="text" placeholder="Name" name="name"> 
+                                 </div>
+                              </div>
+                              <div class="col-lg-6 col-md-6">
+                                 <div class="form-group mb-0">
+                                    <input type="email" placeholder="Email">
+                                    <small class="form-text text-muted"></small>
+                                 </div>
+                              </div>
+                              <div class="col-lg-6 col-md-6">
+                                 <div class="form-group mb-0">    
+                                    <input type="tel" placeholder="Phone"> 
+                                 </div>
+                              </div>
+                              <div class="col-lg-6 col-md-6">
+                                 <div class="form-group mb-0">    
+                                    <input type="text" placeholder="Subject"> 
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-lg-12">
+                                 <div class=" form-group mb-0">    
+                                    <textarea placeholder="Message" rows="3" name="comments"></textarea>
+                                 </div>
+                              </div>
+                           </div>
+                           <button type="submit" class="appointment-btn">Submit</button>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="blog-model-2" class="modal fade blog-model-con" tabindex="-1" style="display: none;" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" ><i class="far fa-times"></i></span></button>
+               </div>
+               <div class="modal-body">
+                  <div class="blog-box-item mb-0">
+                     <div class="blog-img">
+                        <figure class="mb-0">
+                           <img src="assets/image/blog-model-img2.png" alt="blog-img" class="img-fluid">
+                        </figure>
+                     </div>
+                     <div class="blog-content pl-0 pr-0">
+                        <div class="blog-auteher-title">
+                           <span>By Elina Parker</span>
+                           <span class="float-lg-right">Mar 9, 2022</span>
+                        </div>
+                        <h4>Reprehenderit in vouta
+                           velit esse cillum
+                        </h4>
+                        <div class="footer-social-icon mb-0">
+                           <ul>
+                              <li class="d-inline-block">
+                                 <a href="https://www.behance.net/"><i class="fab fa-behance d-flex align-items-center justify-content-center"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                 <a href="https://dribbble.com/"><i class="fab fa-dribbble d-flex align-items-center justify-content-center"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                 <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in d-flex align-items-center justify-content-center"></i></a>
+                              </li>
+                           </ul>
+                        </div>
+                        <p class="mb-md-4 mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tempor eros a tellus auctor, nec suscipit nunc dignissim. Ut suscipit gravida augue sed elementum. Sed sed luctus nisl. Donec scelerisque nisi in sodales mattis. Vestibulum suscipit odio ac enim blandit sollicitudin. Aliquam ultrices sem quis urna placerat interdum. Etiam rutrum, quam sagittis tristique mollis, libero arcu scelerisque erat, eget tincidunt eros diam quis nunc.</p>
+                        <h4 class="comment-title">LEAVE A COMMENT</h4>
+                        <form class="contact-form blog-model-form">
+                           <div class="row">
+                              <div class="col-lg-6 col-md-6">
+                                 <div class="form-group mb-0">    
+                                    <input type="text" placeholder="Name" name="name"> 
+                                 </div>
+                              </div>
+                              <div class="col-lg-6 col-md-6">
+                                 <div class="form-group mb-0">
+                                    <input type="email" placeholder="Email">
+                                    <small class="form-text text-muted"></small>
+                                 </div>
+                              </div>
+                              <div class="col-lg-6 col-md-6">
+                                 <div class="form-group mb-0">    
+                                    <input type="tel" placeholder="Phone"> 
+                                 </div>
+                              </div>
+                              <div class="col-lg-6 col-md-6">
+                                 <div class="form-group mb-0">    
+                                    <input type="text" placeholder="Subject"> 
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-lg-12">
+                                 <div class=" form-group mb-0">    
+                                    <textarea placeholder="Message" rows="3" name="comments"></textarea>
+                                 </div>
+                              </div>
+                           </div>
+                           <button type="submit" class="appointment-btn">Submit</button>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="blog-model-3" class="modal fade blog-model-con" tabindex="-1" style="display: none;" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" ><i class="far fa-times"></i></span></button>
+               </div>
+               <div class="modal-body">
+                  <div class="blog-box-item mb-0">
+                     <div class="blog-img">
+                        <figure class="mb-0">
+                           <img src="assets/image/blog-model-img1.png" alt="blog-img" class="img-fluid">
+                        </figure>
+                     </div>
+                     <div class="blog-content pl-0 pr-0">
+                        <div class="blog-auteher-title">
+                           <span>By Elina Parker</span>
+                           <span class="float-lg-right">Mar 10, 2022</span>
+                        </div>
+                        <h4>Soluta nobis ose aligen
+                           optio cumue
+                        </h4>
+                        <div class="footer-social-icon mb-0">
+                           <ul>
+                              <li class="d-inline-block">
+                                 <a href="https://github.com/Vihasith137"><i class="fab fa-dribbble d-flex align-items-center justify-content-center"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                 <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"><i class="fab fa-linkedin-in d-flex align-items-center justify-content-center"></i></a>
+                              </li>
+                           </ul>
+                        </div>
+                        <p class="mb-md-4 mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tempor eros a tellus auctor, nec suscipit nunc dignissim. Ut suscipit gravida augue sed elementum. Sed sed luctus nisl. Donec scelerisque nisi in sodales mattis. Vestibulum suscipit odio ac enim blandit sollicitudin. Aliquam ultrices sem quis urna placerat interdum. Etiam rutrum, quam sagittis tristique mollis, libero arcu scelerisque erat, eget tincidunt eros diam quis nunc.</p>
+                        <h4 class="comment-title">LEAVE A COMMENT</h4>
+                        <form class="contact-form blog-model-form">
+                           <div class="row">
+                              <div class="col-lg-6 col-md-6">
+                                 <div class="form-group mb-0">    
+                                    <input type="text" placeholder="Name" name="name"> 
+                                 </div>
+                              </div>
+                              <div class="col-lg-6 col-md-6">
+                                 <div class="form-group mb-0">
+                                    <input type="email" placeholder="Email">
+                                    <small class="form-text text-muted"></small>
+                                 </div>
+                              </div>
+                              <div class="col-lg-6 col-md-6">
+                                 <div class="form-group mb-0">    
+                                    <input type="tel" placeholder="Phone"> 
+                                 </div>
+                              </div>
+                              <div class="col-lg-6 col-md-6">
+                                 <div class="form-group mb-0">    
+                                    <input type="text" placeholder="Subject"> 
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-lg-12">
+                                 <div class=" form-group mb-0">    
+                                    <textarea placeholder="Message" rows="3" name="comments"></textarea>
+                                 </div>
+                              </div>
+                           </div>
+                           <button type="submit" class="appointment-btn">Submit</button>
+                        </form>
+                        
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+	  <!--clock api-->
+ 
+    </div>
+	 
+      <!-- weight footer section -->
+      <script src="assets/js/wow.js"></script>
+      <script>
+         new WOW().init();
+      </script>
+	  <script src="https://code.jquery.com/jquery-3.7.1.min.js" 
+		integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+		crossorigin="anonymous"></script>
+      <script src="assets/js/jquery-3.6.0.min.js"> </script>
+      <script src=" https://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.js"></script>
+      <script src="assets/js/popper.min.js"> </script>
+      <script src="assets/js/bootstrap.min.js"> </script>
+      <script src="assets/js/custom-script.js"> </script>
+      <script src="assets/js/contact-form.js"></script>
+	  <script>
+		function displayTime() {
+			document.getElementById('digital-clock').innerHTML=" The current Time is : "+ Date();
+		}
+		setInterval(displayTime,500);
+		function validateInput(inputId) {
+			var input = document.getElementbyId(inputId).value;
+			if(input.length == 0) {
+				alert("Please enter some text");
+				return false;
+			}
+			return true;
+		}
+		function encodeInput(input){
+			const encodedData = document.createElement('div');
+			encodedData.innerText=input;
+			return encodedData.innerHTML;
+		}	
+	</script>
+	<script type=text/javascript>
+			
+		function displayJoke(){
+		$.get("https://v2.jokeapi.dev/joke/Programming?type=single",function(result){
+				console.log("from joke API: "+ JSON.stringify(result));
+				if (result && result.joke) {
+				$("#response").text("Programming joke of the day: " +result.joke);
+				}
+				else{
+				 $("#response").text("Could not retrieve a joke at this time.");	
+				}
+			});
+		}
+		displayJoke();
+		setInterval(displayJoke,60*1000);
+        function setCookie(name, value, expiryDays) {
+            const d = new Date();
+            d.setTime(d.getTime() + (expiryDays*24*60*60*1000));
+            let expires = "expires="+ d.toUTCString();
+            document.cookie = name + "=" + value + ";" + expires + ";path=/";
+        }
+
+        function getCookie(name) {
+            let cookieName = name + "=";
+            let decodedCookie = decodeURIComponent(document.cookie);
+            let ca = decodedCookie.split(';');
+            for(let i = 0; i <ca.length; i++) {
+                let c = ca[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(cookieName) == 0) {
+                    return c.substring(cookieName.length, c.length);
+                }
+            }
+            return "";
+        }
+
+        function welcomeUser() {
+            const lastVisit = getCookie("lastVisit");
+            const greetingElement = document.getElementById("greetingCookie");
+            if (lastVisit) {
+                greetingElement.innerHTML = "Welcome back! Your last visit was on " + lastVisit + ".";
+            } else {
+                greetingElement.innerHTML = "Welcome to my portfolio!";
+            }
+            const now = new Date();
+            setCookie("lastVisit", now.toLocaleString(), 365);
+        }
+
+        welcomeUser();
+		</script>
+      <script>
+         filterSelection("all")
+         function filterSelection(c) {
+         var x, i;
+         x = document.getElementsByClassName("filterDiv");
+         if (c == "all") c = "";
+         for (i = 0; i < x.length; i++) {
+         w3RemoveClass(x[i], "show");
+         if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+         }
+         }
+         
+         function w3AddClass(element, name) {
+         var i, arr1, arr2;
+         arr1 = element.className.split(" ");
+         arr2 = name.split(" ");
+         for (i = 0; i < arr2.length; i++) {
+         if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+         }
+         }
+         
+         function w3RemoveClass(element, name) {
+         var i, arr1, arr2;
+         arr1 = element.className.split(" ");
+         arr2 = name.split(" ");
+         for (i = 0; i < arr2.length; i++) {
+         while (arr1.indexOf(arr2[i]) > -1) {
+         arr1.splice(arr1.indexOf(arr2[i]), 1);     
+         }
+         }
+         element.className = arr1.join(" ");
+         }
+         
+         // Add active class to the current button (highlight it)
+         var btnContainer = document.getElementById("myBtnContainer");
+         var btns = btnContainer.getElementsByClassName("btn");
+         for (var i = 0; i < btns.length; i++) {
+         btns[i].addEventListener("click", function(){
+         var current = document.getElementsByClassName("active");
+         current[0].className = current[0].className.replace(" active", "");
+         this.className += " active";
+         });
+         }
+      </script>
+      <script>
+         var btn = $('#button');
+         
+         $(window).scroll(function() {
+         if ($(window).scrollTop() > 300) {
+         btn.addClass('show');
+         } else {
+         btn.removeClass('show');
+         }
+         });
+         
+         btn.on('click', function(e) {
+         e.preventDefault();
+         $('html, body').animate({scrollTop:0}, '300');
+         });
+         
+      </script>
+      <script>
+         $(window).scroll(function(){
+         
+         if ($(window).scrollTop() >= 113) {
+         
+         $('header').addClass('fixed-header');
+         $('.banner-main-con').addClass('banner-main-con2');
+         
+         }
+         
+         else {
+         
+         $('header').removeClass('fixed-header');
+         $('.banner-main-con').removeClass('banner-main-con2');
+         
+         }
+         
+         });
+         
+      </script>
+   <script>
+document.querySelectorAll('.nav-item a').forEach(function(link, index){
+
+link.addEventListener('click', function() {
+
+  if(this.classList.contains('is-active')) {
+
+    this.classList.remove('is-active');
+
+  } else {
+
+    const activeLink = document.querySelector('a.is-active'); // **
+
+    if (activeLink) {                                         // **
+
+        activeLink.classList.remove('is-active');             // **
+
+    }                                                         // **
+
+    this.classList.add('is-active');
+
+  }
+
+});
+
+});
+
+document.querySelectorAll('#myBtnContainer button').forEach(function(link, index){
+
+link.addEventListener('click', function() {
+
+  if(this.classList.contains('active_button')) {
+
+    this.classList.remove('active_button');
+
+  } else {
+
+    const activeLink = document.querySelector('#myBtnContainer button.active_button'); // **
+
+    if (activeLink) {                                         // **
+
+        activeLink.classList.remove('active_button');             // **
+
+    }                                                         // **
+
+    this.classList.add('active_button');
+
+  }
+
+});
+
+});
+   </script>
+     <script>
+      function downloadImage() {
+        source = 'assets/image/cv-img.png';
+      const fileName = 'test-image.png';
+      var el = document.createElement("a");
+      el.setAttribute("href", source);
+      el.setAttribute("download", fileName);
+      document.body.appendChild(el);
+      el.click();
+      el.remove();
+      }
+    </script>
+   </body>
+</html>
