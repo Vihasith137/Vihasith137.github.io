@@ -70,9 +70,3 @@ function displayJoke(){
 
 The techstack used for this portfolio is HTML, CSS, Bootstrap framwork, and JavaScript.
 
-Moreover some of the code from lab 2
-<<<<<<< Updated upstream
-To make the portfolio interesting i have add a custom greeting message using react. This code helps in greeting the user Good Morning , Good evening , Good afternoon based on the time of the day.
-=======
-To make the portfolio interesting i have add a custom greeting message using react. This code helps in greeting the user Good Morning , Good evening , Good afternoon based on the time of the day.
->>>>>>> Stashed changes
