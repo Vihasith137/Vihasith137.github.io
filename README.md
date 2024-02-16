@@ -8,7 +8,7 @@
 
 **Email**: rasalavh@mail.uc.edu
 
-![Vihasith Rasala](images/headshot.png)
+![Vihasith Rasala](images/headshot.jpg){width=150px height=150px}
 
 
 ## Individual Project 1 – Front-end Web Development with a Professional Profile Website on github.io cloud service
