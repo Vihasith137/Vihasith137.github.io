@@ -131,23 +131,7 @@
 		fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
 		</script>
 		<a href="waph.html" >Path to WAPH Coursework</a>
-		</div>
-		<script>
-		function displayJoke(){
-		$.get("https://v2.jokeapi.dev/joke/Programming?type=single",function(result){
-				console.log("from joke API: "+ JSON.stringify(result));
-				if (result && result.joke) {
-				$("#response").text("Programming joke of the day: " +result.joke);
-				}
-				else{
-				 $("#response").text("Could not retrieve a joke at this time.");	
-				}
-			});
-		}
-		displayJoke();
-		setInterval(displayJoke,60*1000);
- 
-		</script>
+	  </div>
       <!-- service section -->
       <section class="w-100 float-left service-con padding-top padding-bottom position-relative" id="service-con" >
          <div class="container">
