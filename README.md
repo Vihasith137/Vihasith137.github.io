@@ -21,6 +21,8 @@ For non-technical requirements, an open-source Bootstrap framework is utilized t
 
 Link to the repository:
 [https://github.com/Vihasith137/Vihasith137.github.io/blob/main/README.md](https://github.com/Vihasith137/Vihasith137.github.io/blob/main/README.md)
+Link to Portfolio:
+[https://vihasith137.github.io/my_portfolio/index.html](https://vihasith137.github.io/my_portfolio/index.html)
 
 \pagebreak
 
